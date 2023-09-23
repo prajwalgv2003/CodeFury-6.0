@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "992972159807",
+    "project_id": "codefury-6",
+    "storage_bucket": "codefury-6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992972159807:android:31937d909292f78041318a",
+        "android_client_info": {
+          "package_name": "com.example.codefury"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb2jsP8-unlaqrJwucAJ24JYLU6Xzm5jY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
