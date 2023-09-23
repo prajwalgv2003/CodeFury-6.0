@@ -29,22 +29,80 @@ class _ListViewWithSearchState extends State<ListViewWithSearch> {
   void initState() {
     super.initState();
     items = [
-      ListItem(
-        heading: 'Item 1',
-        tagLine: 'Tag Line 1',
-        imageAssetPath: 'assets/images/image1.jpg',
-        details: 'Details about Item 1...',
-        customName: 'Google', // Custom name
-      ),
-      ListItem(
-        heading: 'Item 2',
-        tagLine: 'Tag Line 2',
-        imageAssetPath: 'assets/images/image2.jpg',
-        details: 'Details about Item 2...',
-        customName: 'Flutter', // Custom name
-      ),
-      // Add more items as needed
-    ];
+  ListItem(
+    heading: 'Depression in India',
+    tagLine: 'Country-wise Statistics',
+    imageAssetPath: 'assets/images/depression.jpg',
+    details: 'In India, approximately 7.5% of the population suffers from depression. According to recent surveys, urban areas tend to have higher rates compared to rural areas. Factors contributing to depression include work stress, lifestyle changes, and lack of awareness.',
+    customName: 'Depression',
+  ),
+  ListItem(
+    heading: 'Anxiety in Indian Youth',
+    tagLine: 'Year-wise Comparison',
+    imageAssetPath: 'assets/images/anxiety.jpg',
+    details: 'Over the past decade, anxiety disorders among Indian youth have been on the rise. In 2010, the prevalence was around 3%, but by 2020, it had increased to nearly 8%. The pressures of education, career choices, and social media are contributing factors.',
+    customName: 'Anxiety',
+  ),
+  ListItem(
+    heading: 'Suicide Rates in States',
+    tagLine: 'State-wise Comparison',
+    imageAssetPath: 'assets/images/suicide.jpg',
+    details: 'India has significant variations in suicide rates among states. For example, states like Kerala, Tamil Nadu, and Maharashtra have higher rates, while states like Bihar, Jharkhand, and West Bengal have relatively lower rates. These differences are influenced by cultural, socioeconomic, and educational factors.',
+    customName: 'Suicide',
+  ),
+  ListItem(
+    heading: 'Mental Health Awareness Campaigns',
+    tagLine: 'Awareness Initiatives',
+    imageAssetPath: 'assets/images/awareness.jpg',
+    details: 'In recent years, India has witnessed an increase in mental health awareness campaigns and initiatives. Organizations and government programs are working to reduce stigma and promote mental health education. These efforts aim to improve access to mental health services across the country.',
+    customName: 'Awareness',
+  ),
+  ListItem(
+    heading: 'Psychiatric Facilities in India',
+    tagLine: 'Facility Availability',
+    imageAssetPath: 'assets/images/hospital.jpg',
+    details: 'India faces a shortage of psychiatric facilities. There are approximately 0.3 psychiatrists per 100,000 population. This shortage impacts access to mental health care, especially in rural areas. Efforts are being made to increase the number of mental health professionals and facilities.',
+    customName: 'Facilities',
+  ),
+  ListItem(
+    heading: 'Youth Mental Health Trends',
+    tagLine: 'Youth Perspective',
+    imageAssetPath: 'assets/images/youth.jpg',
+    details: 'Indian youth are increasingly seeking help for mental health issues. More young people are open to discussing their problems and seeking professional help. This positive trend indicates a growing awareness and willingness to address mental health concerns.',
+    customName: 'Youth Mental Health',
+  ),
+  ListItem(
+    heading: 'Stress Levels in Urban Areas',
+    tagLine: 'Urban vs. Rural',
+    imageAssetPath: 'assets/images/stress.jpg',
+    details: 'Urban areas in India often report higher stress levels due to the fast-paced lifestyle, competition, and work-related pressures. In contrast, rural areas generally have lower stress levels, but face challenges related to access to mental health care.',
+    customName: 'Stress',
+  ),
+  ListItem(
+    heading: 'Government Mental Health Budget',
+    tagLine: 'Budget Allocation',
+    imageAssetPath: 'assets/images/budget.jpg',
+    details: 'The Indian government has been increasing its budget allocation for mental health services in recent years. These funds are directed towards improving mental health infrastructure, awareness campaigns, and training of mental health professionals.',
+    customName: 'Budget',
+  ),
+  ListItem(
+    heading: 'Substance Abuse and Mental Health',
+    tagLine: 'Co-occurrence',
+    imageAssetPath: 'assets/images/substance.jpg',
+    details: 'There is a strong connection between substance abuse and mental health issues in India. Individuals with substance use disorders are at a higher risk of developing mental health problems. Integrated treatment programs are addressing this co-occurrence.',
+    customName: 'Substance Abuse',
+  ),
+  ListItem(
+    heading: 'Mental Health Policies',
+    tagLine: 'Policy Developments',
+    imageAssetPath: 'assets/images/policy.jpg',
+    details: 'India has been working on developing comprehensive mental health policies to address the growing mental health needs of the population. These policies focus on improving access to care, reducing stigma, and promoting mental well-being.',
+    customName: 'Policies',
+  ),
+];
+
+
+
     filteredItems = items;
   }
 

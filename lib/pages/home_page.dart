@@ -8,6 +8,7 @@ import 'package:codefury/pages/profile_page.dart';
 import 'package:codefury/service/auth_service.dart';
 import 'package:codefury/widgets/widgets.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:codefury/pages/information_page.dart';
 
 
 
@@ -95,13 +96,11 @@ class _HomePageState extends State<HomePage> {
     );
   }).toList(),
 ),
-
-
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => AddContactsPage()),
+                  MaterialPageRoute(builder: (context) => ListViewWithSearch()),
                 );
               },
               child: Text('Button 1'),
